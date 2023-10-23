@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.divisor {
+    height: 1px;
+    background-color: #ffc862;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: url("/Blog/imagenes/header.png");
+    background-size: 100%;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+    color: #ffc862;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+main {
+    padding: 20px;
+    margin: 0;
+    padding-top: 0%;
+    padding-bottom: 20px;
+    background: url("/Blog/imagenes/fondo.png");
+}
+
+
+.horafinal {
+    height: 450px;
+    width: 100%;
+}
+
+h2 {
+    margin: 5px;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 50px;
+}
+
+article {
+    border: 0;
+    border-radius: 0.5%;
+    padding: 2px;
+    background-color: #ffc862;
+}
+
+article img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+main a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+.icons-container {
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    display: grid;
+    background: url("/Blog/imagenes/footer.png");
+}
+.icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.icons span {
+    color: white;
+}
