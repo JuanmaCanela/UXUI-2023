@@ -4,57 +4,46 @@ body {
     padding: 0;
 }
 
-.divisor {
-    height: 1px;
-    background-color: #ffc862;
-}
-
 header {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-    background: url("/Blog/imagenes/header.png");
+    font-size: large;
+    background: url(https://th.bing.com/th/id/R.ab16887770bf92c32e86193bf48e57cc?rik=0m8XxcIX%2b7WQaA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fgNpfIPZ.jpg&ehk=dAl9JhRhB0jMuOzSKaxQBdsfGbthF2UhHIujbdNdh38%3d&risl=&pid=ImgRaw&r=0);
     background-size: 100%;
     background-position: center;
 }
 
 header h1 {
-    margin: 0;
-    font-family: 'Russo One', sans-serif;
-    color: #ffc862;
+    margin: auto;
+    font-size: 80px;
+    font-family: 'Monomaniac One', sans-serif;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px #000000;
 }
 
 nav ul {
-    list-style: none;
     padding: 0;
+    list-style: none;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
 }
 
 nav a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
-    font-family: Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Russo One', sans-serif;
 }
 
 main {
     padding: 20px;
-    margin: 0;
-    padding-top: 0%;
-    padding-bottom: 20px;
-    background: url("/Blog/imagenes/fondo.png");
-}
-
-
-.horafinal {
-    height: 450px;
-    width: 100%;
-}
-
-h2 {
-    margin: 5px;
+    margin-top: 10px ;
+    margin-bottom: 20px; 
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .noticias {
@@ -67,7 +56,9 @@ article {
     border: 0;
     border-radius: 0.5%;
     padding: 2px;
-    background-color: #ffc862;
+    background: url(https://th.bing.com/th/id/R.ab16887770bf92c32e86193bf48e57cc?rik=0m8XxcIX%2b7WQaA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fgNpfIPZ.jpg&ehk=dAl9JhRhB0jMuOzSKaxQBdsfGbthF2UhHIujbdNdh38%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    background-position: bottom;
 }
 
 article img {
@@ -76,35 +67,130 @@ article img {
     object-fit: cover;
 }
 
-main a:link, a:visited, a:active {
+a:link, a:visited, a:active {
     text-decoration:none;
     color: black;
 }
 
+/* PAGINA DE NOTICIA DESARROLLADA */
+
+.noti p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    color: #4b4b4b;
+}
+
+#subtitulo {
+    font-size: 25px;
+}
+
+figure img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+li {
+    font-size: 20px;
+    color: #4b4b4b;
+}
+
+figcaption {
+    color: #9f9f9f;
+}
+
+/* ACERCA DE MI */ 
+
+.fotoynombre {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Russo One', sans-serif;
+}
+
+.fotoynombre h2 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.fotoynombre img {
+    border-radius: 100%;
+}
+
+.linea {
+    border-color: #40d2ff;
+}
+
+.acercademi h3 {
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: underline;
+}
+
+.acercademi p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.conocimientos, .intereses {
+    display: block;
+}
+
+/* FOOTER GENERAL */ 
+
 footer {
     height: 30px;
     width: 100%;
-    background-color: black;
+    text-decoration: none;
+    display: flex;
 }
 
 .icons-container {
     width: 100%;
     height: 50px;
     padding: 10px 0;
-    display: grid;
-    background: url("/Blog/imagenes/footer.png");
-}
-.icons-container .icons {
-    width: 300px;
-    height: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    justify-self: end;
-    margin-right: 50px;
-    text-decoration: none;
+    background: url(https://th.bing.com/th/id/R.ab16887770bf92c32e86193bf48e57cc?rik=0m8XxcIX%2b7WQaA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fgNpfIPZ.jpg&ehk=dAl9JhRhB0jMuOzSKaxQBdsfGbthF2UhHIujbdNdh38%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    background-position: center;
+    align-items: center;
 }
 
-.icons span {
-    color: white;
+.icons-container p {
+    justify-items: start;
+    display: flex;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Monomaniac One', sans-serif;
+    color: #000000;
+}
+.icons-container img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: inline;
+    justify-content: space-between;
+    justify-self: end;
 }
